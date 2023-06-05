@@ -1,0 +1,85 @@
+
+body{
+    background: #ffffff;
+   }
+   #container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+   }
+   /* Bordered form */
+   form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   }
+   #container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   }
+   
+   /* Full-width inputs */
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   }
+   
+   /* Set a style for all buttons */
+   input[type=submit] {
+    background-color: #5361af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   input[type=submit]:hover {
+    background-color: white;
+    color: #537baf;
+    border: 1px solid #5362af;
+   }
+   .The{
+    color:blue;
+    text-align: center;
+    font-size: 60px;
+    background-color: #90aeca;
+    text-shadow: 3px 3px 1px black;
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 10 20px 10px 20px;
+
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: auto;
+}
+nav{
+    margin: 0 auto;
+    color: #9085ec;
+    background-color: #90aeca;
+    height: 36px;
+    line-height: 33px;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-size: auto;
+    border: 1px solid black;
+}
+
+nav  a:hover {
+    background: #ff0000;
+
+}
+
+.con{
+    float: right
+}
